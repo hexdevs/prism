@@ -48,7 +48,7 @@ We could always use more documentation! If you want to contribute documentation,
 To get `clangd` support in the editor for development, generate the compilation database. This command will
 create an ignored `compile_commands.json` file at the project root, which is used by clangd to provide functionality.
 
-You will need `bear` which can be installed on macOS with `brew install bear`.
+You will need `bear` ([source](https://github.com/rizsotto/Bear)) which can be installed on macOS with `brew install bear`. 
 
 ```sh
 bundle exec rake bear
